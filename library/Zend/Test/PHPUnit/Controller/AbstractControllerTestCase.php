@@ -38,7 +38,7 @@ abstract class AbstractControllerTestCase extends PHPUnit_Framework_TestCase
      * @var boolean
      */
     protected $useConsoleRequest = false;
-    
+
     /**
      * Flag console used before tests
      * @var boolean
@@ -67,7 +67,7 @@ abstract class AbstractControllerTestCase extends PHPUnit_Framework_TestCase
     {
         Console::overrideIsConsole($this->usedConsoleBackup);
     }
-    
+
     /**
      * Get the trace error flag
      * @return boolean
